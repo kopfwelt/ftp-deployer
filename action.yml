@@ -45,6 +45,10 @@ inputs:
     required: false
     default: false
     description: 'passive'
+  secure:
+    required: false
+    default: false
+    description: 'secure'
 runs:
   using: 'node12'
   main: 'dist/index.js'
